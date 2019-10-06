@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "--06_10_2019-- HesapMakinesi", "--06_10_2019-- HesapMakinesi\--06_10_2019-- HesapMakinesi.csproj", "{938FFA83-7616-4036-A37E-91D57FA5EC37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "--06_10_2019-- HesapMakinesi2", "--06_10_2019-- Hesap Makinesi 2\--06_10_2019-- HesapMakinesi2.csproj", "{8A352B6C-37C9-407D-B703-F4A145597E68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{938FFA83-7616-4036-A37E-91D57FA5EC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{938FFA83-7616-4036-A37E-91D57FA5EC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{938FFA83-7616-4036-A37E-91D57FA5EC37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A352B6C-37C9-407D-B703-F4A145597E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A352B6C-37C9-407D-B703-F4A145597E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A352B6C-37C9-407D-B703-F4A145597E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A352B6C-37C9-407D-B703-F4A145597E68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
