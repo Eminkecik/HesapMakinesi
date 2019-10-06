@@ -10,8 +10,10 @@ namespace __06_10_2019___Hesap_Makinesi_2
     {
         static void Main(string[] args)
         {
+        basa:
+            Console.Clear();
             int s1, s2;
-            char secim;
+            char secim,devammi;
             Console.WriteLine("1. Sayıyı Giriniz");
             s1 = int.Parse(Console.ReadLine());
             Console.WriteLine("2. Sayıyı Giriniz");
@@ -36,7 +38,13 @@ namespace __06_10_2019___Hesap_Makinesi_2
                     Console.WriteLine("Doğru işlem seçmediniz");
                     break;
             }
-            Console.ReadKey();
+            Console.Write("Devam Etmek İstiyormusunuz?:(e,E/h,H)");
+            devammi = char.Parse(Console.ReadLine());
+            if (devammi == 'e' || devammi == 'E')
+            goto basa; 
+            else
+                Console.WriteLine("İşlem Bitti");
+            Console.ReadKey();     
         }
     }
 }
